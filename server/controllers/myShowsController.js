@@ -16,7 +16,6 @@ module.exports = {
     if (index === -1) {
       //What to do if the show is not yet in my shows
       const show = shows.find((element) => element.show_id === +show_id)
-
       show.myShows_id = myShowsId
 
       myShows.push(show)

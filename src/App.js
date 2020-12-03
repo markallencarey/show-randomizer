@@ -19,7 +19,7 @@ class App extends Component {
         title: 'Episode Title',
         seasonNo: 0,
         episodeNo: 0,
-        img: 'https://image1.masterfile.com/getImage/ODQ2LTAyNzkyNTA4ZW4uMDAwMDAwMDA=ACdJ8c/846-02792508en_Masterfile.jpg'
+        image: 'https://image1.masterfile.com/getImage/ODQ2LTAyNzkyNTA4ZW4uMDAwMDAwMDA=ACdJ8c/846-02792508en_Masterfile.jpg'
       },
     }
     this.addToMyShows = this.addToMyShows.bind(this)
@@ -39,7 +39,7 @@ class App extends Component {
 
   addToMyShows(id) {
     const body = { show_id: id }
-
+  console.log(body)
     axios.post('/api/myShows', body).then((res) => {
       this.setState({
         myShows: res.data
@@ -49,7 +49,6 @@ class App extends Component {
 
   changeRating(id, action) {
     axios.put(`/api/myShows/${id}?action=${action}`).then((res) => {
-      // console.log(this.state.myShows)
       this.setState({
         myShows: res.data
       })
@@ -58,7 +57,6 @@ class App extends Component {
 
   removeFromMyShows(id) {
     axios.delete(`/api/myShows/${id}`).then((res) => {
-      // console.log(res.data)
       this.setState({
         myShows: res.data
       })
