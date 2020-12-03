@@ -6,7 +6,6 @@ class GetRandomEpisode extends Component {
     super()
 
     this.state = {
-
     }
   }
 

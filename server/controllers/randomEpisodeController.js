@@ -16,6 +16,9 @@ module.exports = {
 
     const randomEpisode = Math.ceil(Math.random() * myShows[randomShow].episodes.length - 1)
 
-    res.status(200).send(myShows[randomShow].episodes[randomEpisode])
+    res.status(200).send({
+      show: myShows[randomShow],
+      episode: myShows[randomShow].episodes[randomEpisode]
+    })
   }
 }

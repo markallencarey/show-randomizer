@@ -6,7 +6,6 @@ import ShowList from './Components/ShowList'
 import MyShows from './Components/MyShows'
 import GetRandomEpisode from './Components/GetRandomEpisode'
 
-
 class App extends Component {
   constructor() {
     super()
@@ -15,11 +14,14 @@ class App extends Component {
       shows: [],
       myShows: [],
       randomEpisode: {
-        showTitle: 'Show Title',
-        title: 'Episode Title',
-        seasonNo: 0,
-        episodeNo: 0,
-        image: 'https://image1.masterfile.com/getImage/ODQ2LTAyNzkyNTA4ZW4uMDAwMDAwMDA=ACdJ8c/846-02792508en_Masterfile.jpg'
+        title: 'Show Title',
+        name: 'Episode Title',
+        season: 0,
+        number: 0,
+        image: 'https://image1.masterfile.com/getImage/ODQ2LTAyNzkyNTA4ZW4uMDAwMDAwMDA=ACdJ8c/846-02792508en_Masterfile.jpg',
+        summary: '',
+        airdate: '',
+        runtime: '',
       },
     }
     this.addToMyShows = this.addToMyShows.bind(this)
@@ -39,7 +41,7 @@ class App extends Component {
 
   addToMyShows(id) {
     const body = { show_id: id }
-  console.log(body)
+    console.log(body)
     axios.post('/api/myShows', body).then((res) => {
       this.setState({
         myShows: res.data
@@ -73,8 +75,19 @@ class App extends Component {
 
   getRandomEpisode() {
     axios.get('api/random').then((res) => {
+      const newRandomEpisode = {
+        title: res.data.show.title,
+        name: res.data.episode.name,
+        season: res.data.episode.season,
+        number: res.data.episode.number,
+        image: res.data.episode.image.original,
+        summary: res.data.episode.summary,
+        airdate: res.data.episode.airdate,
+        runtime: res.data.episode.airtime,
+      }
+
       this.setState({
-        randomEpisode: res.data
+        randomEpisode: newRandomEpisode
       })
     })
   }
