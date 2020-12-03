@@ -14,7 +14,13 @@ class App extends Component {
     this.state = {
       shows: [],
       myShows: [],
-      randomEpisode: {},
+      randomEpisode: {
+        showTitle: 'Show Title',
+        title: 'Episode Title',
+        seasonNo: 0,
+        episodeNo: 0,
+        img: 'https://image1.masterfile.com/getImage/ODQ2LTAyNzkyNTA4ZW4uMDAwMDAwMDA=ACdJ8c/846-02792508en_Masterfile.jpg'
+      },
     }
     this.addToMyShows = this.addToMyShows.bind(this)
     this.changeRating = this.changeRating.bind(this)
@@ -84,7 +90,7 @@ class App extends Component {
             shows={this.state.shows}
             addToMyShows={this.addToMyShows}
           />
-          <GetRandomEpisode 
+          <GetRandomEpisode
             randomEpisode={this.state.randomEpisode}
             getRandomEpisode={this.getRandomEpisode}
           />

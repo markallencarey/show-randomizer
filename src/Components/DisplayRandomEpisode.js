@@ -12,9 +12,11 @@ class DisplayRandomEpisode extends Component {
   render() {
     return (
       <div className='displayRandomEpisode'>
-        <h2>{this.props.randomEpisode.showTitle}</h2>
-        <p>Season {this.props.randomEpisode.seasonNo}, Episode {this.props.randomEpisode.episodeNo}</p>
-        <h3>{this.props.randomEpisode.title}</h3>
+        <div className='randoInfo'>
+          <h2 className='randoShowTitle'>{this.props.randomEpisode.showTitle}</h2>
+          <h3 className='randoEpiTitle'>"{this.props.randomEpisode.title}"</h3>
+          <p className='randoSEpNo'>Season {this.props.randomEpisode.seasonNo}, Episode {this.props.randomEpisode.episodeNo}</p>
+        </div>
         <img className='episode-img' src={this.props.randomEpisode.img} />
       </div>
     )

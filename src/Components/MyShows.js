@@ -18,7 +18,7 @@ const MyShows = (props) => {
     <div className='myShows'>
       <h2 className='list-title'>My Shows</h2>
       <div className='list-of-shows'>{myShowMap}</div>
-      <button onClick={() => props.clearShows()}>Clear All My Shows</button>
+      <button className='clearShows-button'onClick={() => props.clearShows()}>Clear All My Shows</button>
     </div>
   )
 }
