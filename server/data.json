@@ -1,0 +1,314 @@
+[
+  {
+    "show_id": 0,
+    "title": "Psych",
+    "episodes": [
+      {
+        "id": 0,
+        "showTitle": "Psych",
+        "title": "Pilot",
+        "seasonNo": 1,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/128/321823.jpg"
+      },
+      {
+        "id": 1,
+        "showTitle": "Psych",
+        "title": "Spellingg Bee",
+        "seasonNo": 1,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/128/321824.jpg"
+      },
+      {
+        "id": 2,
+        "showTitle": "Psych",
+        "title": "Speak Now or Forever Hold Your Piece",
+        "seasonNo": 1,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/128/321848.jpg"
+      },
+      {
+        "id": 3,
+        "showTitle": "Psych",
+        "title": "American Duos",
+        "seasonNo": 2,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/133/332817.jpg"
+      },
+      {
+        "id": 4,
+        "showTitle": "Psych",
+        "title": "Sixty Five Million Years Off",
+        "seasonNo": 2,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/133/332824.jpg"
+      },
+      {
+        "id": 5,
+        "showTitle": "Psych",
+        "title": "Psy vs. Psy",
+        "seasonNo": 2,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/133/332833.jpg"
+      },
+      {
+        "id": 6,
+        "showTitle": "Psych",
+        "title": "Ghosts",
+        "seasonNo": 3,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/133/334603.jpg"
+      },
+      {
+        "id": 7,
+        "showTitle": "Psych",
+        "title": "Murder?...Anyone?...Anyone?...Bueller?",
+        "seasonNo": 3,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/133/334604.jpg"
+      },
+      {
+        "id": 8,
+        "showTitle": "Psych",
+        "title": "Daredevils!",
+        "seasonNo": 3,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/133/334605.jpg"
+      }
+    ]
+  },
+  {
+    "show_id": 1,
+    "title": "The Office",
+    "episodes": [
+      {
+        "id": 0,
+        "showTitle": "The Office",
+        "title": "Pilot",
+        "seasonNo": 1,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/49/124795.jpg"
+      },
+      {
+        "id": 1,
+        "showTitle": "The Office",
+        "title": "Diversity Day",
+        "seasonNo": 1,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/49/124859.jpg"
+      },
+      {
+        "id": 2,
+        "showTitle": "The Office",
+        "title": "Health Care",
+        "seasonNo": 1,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/50/125614.jpg"
+      },
+      {
+        "id": 3,
+        "showTitle": "The Office",
+        "title": "The Dundies",
+        "seasonNo": 2,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/50/127495.jpg"
+      },
+      {
+        "id": 4,
+        "showTitle": "The Office",
+        "title": "Sexual Harassment",
+        "seasonNo": 2,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/51/127560.jpg"
+      },
+      {
+        "id": 5,
+        "showTitle": "The Office",
+        "title": "Office Olympics",
+        "seasonNo": 2,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/51/127912.jpg"
+      },
+      {
+        "id": 6,
+        "showTitle": "The Office",
+        "title": "Gay Witch Hunt",
+        "seasonNo": 3,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/194/486855.jpg"
+      },
+      {
+        "id": 7,
+        "showTitle": "The Office",
+        "title": "The Convention",
+        "seasonNo": 3,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/194/486856.jpg"
+      },
+      {
+        "id": 8,
+        "showTitle": "The Office",
+        "title": "The Coup",
+        "seasonNo": 3,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/194/486857.jpg"
+      }
+    ]
+  },
+  {
+    "show_id": 2,
+    "title": "Parks and Recreation",
+    "episodes": [
+      {
+        "id": 0,
+        "title": "Pilot",
+        "showTitle": "Parks and Recreation",
+        "seasonNo": 1,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20333.jpg"
+      },
+      {
+        "id": 1,
+        "showTitle": "Parks and Recreation",
+        "title": "Canvassing",
+        "seasonNo": 1,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20334.jpg"
+      },
+      {
+        "id": 2,
+        "showTitle": "Parks and Recreation",
+        "title": "The Reporter",
+        "seasonNo": 1,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20335.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Pawnee Zoo",
+        "showTitle": "Parks and Recreation",
+        "seasonNo": 2,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20309.jpg"
+      },
+      {
+        "id": 4,
+        "showTitle": "Parks and Recreation",
+        "title": "The Stakeout",
+        "seasonNo": 2,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20310.jpg"
+      },
+      {
+        "id": 5,
+        "showTitle": "Parks and Recreation",
+        "title": "Beauty Pageant",
+        "seasonNo": 2,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20311.jpg"
+      },
+      {
+        "id": 6,
+        "showTitle": "Parks and Recreation",
+        "title": "Go Big or Go Home",
+        "seasonNo": 3,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20293.jpg"
+      },
+      {
+        "id": 7,
+        "showTitle": "Parks and Recreation",
+        "title": "Flu Season",
+        "seasonNo": 3,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20294.jpg"
+      },
+      {
+        "id": 8,
+        "showTitle": "Parks and Recreation",
+        "title": "Time Capsule",
+        "seasonNo": 3,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/8/20295.jpg"
+      }
+    ]
+  },
+  {
+    "show_id": 3,
+    "title": "Brooklyn Nine-Nine",
+    "episodes": [
+      {
+        "id": 0,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "Pilot",
+        "seasonNo": 1,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/3/9888.jpg"
+      },
+      {
+        "id": 1,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "The Tagger",
+        "seasonNo": 1,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/3/9889.jpg"
+      },
+      {
+        "id": 2,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "The Slump",
+        "seasonNo": 1,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/3/9890.jpg"
+      },
+      {
+        "id": 3,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "Undercover",
+        "seasonNo": 2,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/1/4697.jpg"
+      },
+      {
+        "id": 4,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "Chocolate Milk",
+        "seasonNo": 2,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/1/4696.jpg"
+      },
+      {
+        "id": 5,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "The Jimmy Jab Games",
+        "seasonNo": 2,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/1/4695.jpg"
+      },
+      {
+        "id": 6,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "New Captain",
+        "seasonNo": 3,
+        "episodeNo": 1,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/21/53806.jpg"
+      },
+      {
+        "id": 7,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "The Funeral",
+        "seasonNo": 3,
+        "episodeNo": 2,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/23/57591.jpg"
+      },
+      {
+        "id": 8,
+        "showTitle": "Brooklyn Nine-Nine",
+        "title": "Boyle's Hunch",
+        "seasonNo": 3,
+        "episodeNo": 3,
+        "img": "http://static.tvmaze.com/uploads/images/original_untouched/24/60283.jpg"
+      }
+    ]
+  }
+]
