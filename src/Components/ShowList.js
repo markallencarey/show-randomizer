@@ -6,7 +6,7 @@ const ShowList = (props) => {
   const showMap = props.shows.map((element) => {
     return (
       <ShowListItem 
-        key={element.id} 
+        key={element.show_id} 
         show={element}
         addToMyShows={props.addToMyShows}
         />

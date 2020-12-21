@@ -27,13 +27,13 @@ class DisplayRandomEpisode extends Component {
 
           <div>
             <div className="popUp-btn" onClick={this.togglePop}>
-              <img className='infoIcon' src='https://cdn4.iconfinder.com/data/icons/basic-ui-2-line/32/information-mark-letter-info-sign-256.png' />
+              <img className='infoIcon' src='https://cdn4.iconfinder.com/data/icons/basic-ui-2-line/32/information-mark-letter-info-sign-256.png' alt='info'/>
             </div>
             {this.state.seen ? <PopUp randomEpisode={this.props.randomEpisode} toggle={this.togglePop} /> : null}
           </div>
         </div>
 
-        <img className='episode-img' src={this.props.randomEpisode.image} />
+        <img className='episode-img' src={this.props.randomEpisode.image} alt='episode'/>
 
       </div>
     )

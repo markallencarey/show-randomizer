@@ -41,7 +41,7 @@ class App extends Component {
 
   addToMyShows(id) {
     const body = { show_id: id }
-    console.log(body)
+    // console.log(body)
     axios.post('/api/myShows', body).then((res) => {
       this.setState({
         myShows: res.data
